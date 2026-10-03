@@ -1,97 +1,166 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: system-ui, -apple-system, sans-serif;
-}
 
-body {
-    background-color: #0f172a;
-    color: #f8fafc;
-    line-height: 1.6;
 }
+.main{
+    width: 100%;
+    background-image: url(2.PNG);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width:1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
 
-nav {
+}
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family:Arial,;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+ul li{
+    list-style:none ;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial,;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    
+}
+ul li a:hover{
+    color: #ff7200;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+
+}
+.srch{
+    font-family: 'Times New Roman', ;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid#ff7200;
+    color: #fff;
+    margin-top: 13px;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px ;
+    border-top-left-radius: 5px;
+
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+    
+
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.Hero-section{
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+.hero-text{
+    width: 600px;
+    float: left;
+    color: #CCCCCC;
+}
+.hero-text h2{
+    font-size: 35px;
+    font-family: Arial,;
+    color: #ff6a00;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 20px 0 20px;
+}
+.span{
+    color: #ff7200;
+    font-size: 20px;
+}
+.hero-image{
+    height: 500px;
+    width: 600px;
+    float: left;
+    position: relative;
     display: flex;
     justify-content: center;
-    gap: 2rem;
-    padding: 1.5rem;
-    background: #1e293b;
-}
+    align-items: center;
 
-nav a {
-    color: #94a3b8;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.2s;
 }
-
-nav a:hover, nav a.active {
-    color: #38bdf8;
-}
-
-.container {
-    max-width: 600px;
-    margin: 4rem auto;
-    text-align: center;
-    padding: 0 1rem;
-}
-
-.profile-img {
-    width: 120px;
-    height: 120px;
+.hero-image img{
+    position: relative;
+    width: 330px;
+    height: 330px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 1.5rem;
-    border: 3px solid #38bdf8;
+    border: 6px solid #ff7200;
+    z-index: 1;
+    OBJECT-POSITION: center;
 }
-
-h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-}
-
-p {
-    color: #94a3b8;
-    margin-bottom: 2rem;
-}
-
-.btn {
-    display: inline-block;
-    background-color: #38bdf8;
-    color: #0f172a;
-    padding: 0.75rem 1.5rem;
-    border-radius: 6px;
+.hero-btn{
+    width: 150px;
+    height: 40px;
+    
+    background-color: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px ;
     text-decoration: none;
-    font-weight: 600;
-    transition: background 0.2s;
-}
-
-.btn:hover {
-    background-color: #0ea5e9;
-}
-
-.project-list {
     display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    text-align: left;
-    margin-top: 2rem;
-}
+    justify-content: center;
+    align-items: center;
 
-.project-card {
-    background: #1e293b;
-    padding: 1.25rem;
-    border-radius: 8px;
-    border: 1px solid #334155;
 }
-
-.project-card h3 {
-    color: #38bdf8;
-    margin-bottom: 0.25rem;
-}
-
-.project-card p {
-    margin-bottom: 0;
-    font-size: 0.95rem;
+.hero-btn:hover{
+    background-color: transparent;
+    color: #ff7200;
+    transition: 0.3s ease-in-out;
 }
